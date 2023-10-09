@@ -1,0 +1,44 @@
+body {
+	background-color: white;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+#book-list {
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	width: 80%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	color: black;
+}
+
+a:hover {
+	border-bottom: #000080 1px solid;
+}
+
+#content {
+	text-align: justify;
+	margin: auto;
+	height: 100%;
+	width: 80%;
+}
+
+footer {
+	text-align: center;
+}
