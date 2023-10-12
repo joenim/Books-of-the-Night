@@ -14,6 +14,13 @@ header {
 	width: 80%;
 }
 
+#chap-list {
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	width: 80%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -33,12 +40,36 @@ a:hover {
 }
 
 #content {
-	text-align: justify;
 	margin: auto;
 	height: 100%;
 	width: 80%;
 }
 
+#next-button {
+	float: right;
+	padding: 5px;
+	color: red;
+}
+
+#next-button: a {
+	text-decoration: none;
+}
+
+#prev-button {
+	float: left;
+	padding: 5px;
+	color: red;
+}
+
+#prev-button: a {
+	text-decoration: none;
+}
+
 footer {
 	text-align: center;
+}
+
+#chapters {
+	display: inline-block;
+	margin: 0 10px;
 }
